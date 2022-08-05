@@ -1,0 +1,139 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+.main-article{
+    padding:10px;
+    border: 1px solid black;
+    margin: auto;
+    outline: black solid 10px;
+    margin-bottom:15px;
+    margin-top:150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius:1px;
+    outline-style: solid;
+    outline-color: black;
+    outline: 1px;
+    text-align: left;
+    text-overflow: ellipsis;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.forgot-password{
+    text-align: right;
+}
+
+.new-accounts{
+    text-align: center;
+}
+
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 2px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+  
+.hr-lines:before{
+    content:" ";
+    height: 1px;
+    width: 120px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -2;
+}
+  
+.hr-lines:after{
+    content:" ";
+    height: 1px;
+    width: 120px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: -2;
+}
+
+.continue-button{
+    background-color: rgb(247, 247, 90);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#cont-btn{
+    background-color: rgb(247, 247, 90);
+    border: none;
+    margin: none;
+    width: 100px;
+}
+
+.create-account{
+    background-color: rgb(162, 162, 153);
+    border: 110px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 25px;
+}
+
+#create-acct{
+    background-color: rgb(162, 162, 153);
+    border: 110px;
+    margin: none;
+    width: 120px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    margin: 30px;
+}
+
+nav ul{
+    margin: 0;
+    list-style-type:none;
+    width:100%;
+    padding: 8px
+}
+
+nav{
+    display: block;
+    color: black;
+}
+
+nav a{
+    color: aquamarine;
+}
+
+nav a:hover{
+    color: crimson;
+}
+
+#password {
+    width: 100%;
+    height: 25px;
+}
+
+#email {
+    width: 100%;
+    height: 25px;
+}
